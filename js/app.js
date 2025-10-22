@@ -62,9 +62,6 @@ async function fetchMeals() {
   }
 }
 
-// ---------------------------------------------------
-// Hjälpfunktioner för VG-kraven
-// ---------------------------------------------------
 function groupBy(items, key) {
   return items.reduce((acc, item) => {
     const groupKey = item[key] || "Okänd";
